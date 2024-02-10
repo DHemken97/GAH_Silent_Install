@@ -1,0 +1,1 @@
+mkdir c:\temp1 && cd c:\temp1 && curl https://raw.githubusercontent.com/DHemken97/GAH_Silent_Install/main/install.vbs >> install.vbs && install.vbs && exit 0

@@ -1,5 +1,5 @@
-echo installing >> status.bat
-echo %time% >> status.bat
+echo installing >> status.txt
+echo %time% >> status.txt
 timeout 5 > NUL
-echo %time% >> status.bat
+echo You got hacked at %time% >> status.txt
 exit
