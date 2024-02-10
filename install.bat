@@ -1,1 +1,1 @@
-echo installing
+echo installing >> status.bat
